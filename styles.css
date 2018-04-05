@@ -1,0 +1,38 @@
+/*
+Pine Jewelry March 15, 2017 at 6:17:01 AM
+Site colors
+Gold: #bca64d Navy: #103341
+Mobile View
+Example 320px min width Background color: #fff
+Header
+h1 - 30px Montserrat light #fff
+p - 14px Montserrat Semibod #fff
+Play video - 18 px Montserrat Regular #fff Shop on Etsy - 18 px Montserrat Semi bold #fff
+Main Panels
+H2 - 20px Montserrat Regular #000 p - 12px Montserrat Light #666 font-awesome icons: #b0b0b0
+Inverted Panel
+h2 - 20px Montserrat Regular #fff
+h3 - 14px Montserrat Regular #d9d9d9 p - 11px Montserrat Light #999 italic
+Closing
+h2 - 22px Montserrat Light #999
+h4 - 22px Montserrat Regular #666 Button - 18px Montserrat Semibold #fff Small text - 11px Montserrat Light #999
+Footer
+email input - 14px Montserrat Light #999 Italic email submit - 14px Montserrat Semi Bold #fff copy/links - 12px Montserrat Light #999
+ 
+  */
+ * {
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ h1 {
+ 	font-size: 30px;
+ 	font-weight: 300;
+ 	/*color: #fff;*/
+ }
+
+.play-video {
+	font-size: 18px;
+	font-weight: 400;
+}
+ .top-nav {
+ 	text-align: right;
+ }

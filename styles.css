@@ -42,12 +42,26 @@ email input - 14px Montserrat Light #999 Italic email submit - 14px Montserrat S
  }
 
 @media only screen and (min-width: 674px){
-	.beads{
+	.beads {
 		background-image: url('./images/beads-lg.jpg');
 		height: 449px;
 	}
 	.beads img {
-		display: none
+		display: none;
 	}
+
+	.coupon {
+		background-image: url('./images/pine-cone-lg.jpg');
+		height: 550px;
+		flex-wrap: row;
+		align-content: stretch;
+		justify-content: center;
+		align-content: stretch;
+		max-width: 100%;
+	}
+	.coupon img {
+		display: none;
+	}
+
 
 }

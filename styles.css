@@ -23,6 +23,10 @@ email input - 14px Montserrat Light #999 Italic email submit - 14px Montserrat S
  * {
  	font-family: 'Montserrat', sans-serif;
  }
+
+ img {
+ 	max-width: 100%;
+ }
  h1 {
  	font-size: 30px;
  	font-weight: 300;

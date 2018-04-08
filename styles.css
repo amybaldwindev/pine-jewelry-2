@@ -217,7 +217,14 @@ button.btn.col-md-4.col-12 {
 }
 /* medium */
 @media only screen and (min-width: 768px) {
- 		.unique img {
+	.landing {
+		background: url('./images/forest-lg.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+ 	.unique img {
 		float: right;
 	}
 	.hand-crafting {

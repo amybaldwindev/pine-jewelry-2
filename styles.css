@@ -146,6 +146,10 @@ a.nav-link {
 .footer-links {
 	margin-top: 2em;
 }
+.footer-links a {
+	margin-top: 2em;
+	color: #999;
+}
 .footer button {
 	background: #999;
 	border-radius: 0;
@@ -158,6 +162,10 @@ a.nav-link {
 	margin: .5em 0;
 	padding: .5em 0;
 	
+}
+.fab {
+	padding: 1em;
+	color: #bca64d;
 }
 button.btn.col-md-4.col-12 {
 	color: #fff;
@@ -249,6 +257,9 @@ button.btn.col-md-4.col-12 {
 	}
 	.form-row>.col, .form-row>[class*=col-] {
 		margin: 0 auto;
+	}
+	.fab {
+		padding: 2em;
 	}
 
 }

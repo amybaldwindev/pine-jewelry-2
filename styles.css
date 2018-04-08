@@ -1,24 +1,3 @@
-
-/*Pine Jewelry March 15, 2017 at 6:17:01 AM
-Site colors
-Gold: #bca64d Navy: #103341
-Mobile View
-Example 320px min width Background color: #fff
-Header
-h1 - 30px Montserrat light #fff
-p - 14px Montserrat Semibod #fff
-Play video - 18 px Montserrat Regular #fff Shop on Etsy - 18 px Montserrat Semi bold #fff
-Main Panels
-H2 - 20px Montserrat Regular #000 p - 12px Montserrat Light #666 font-awesome icons: #b0b0b0 
-Inverted Panel
-h2 - 20px Montserrat Regular #fff
-h3 - 14px Montserrat Regular #d9d9d9 p - 11px Montserrat Light #999 italic
-Closing
-h2 - 22px Montserrat Light #999
-h4 - 22px Montserrat Regular #666 Button - 18px Montserrat Semibold #fff Small text - 11px Montserrat Light #999
-Footer
-email input - 14px Montserrat Light #999 Italic email submit - 14px Montserrat Semi Bold #fff copy/links - 12px Montserrat Light #999
-*/
 /* general styles */
 * {
 	font-family: 'Montserrat', sans-serif;
@@ -114,6 +93,7 @@ a.nav-link {
 }
 .inverted-panel h3 {
 	font-size: 14px;
+	margin-top: 2.5em;
 	color: #d9d9d9;
 
 }
@@ -121,6 +101,7 @@ a.nav-link {
 	font-size: 11px;
 	font-style: italic;
 	font-weight: 300;
+	margin-bottom: 3em;
 	color: #999;
 }
 .item {
@@ -160,6 +141,7 @@ a.nav-link {
 	border: 3px solid #d9d9d9;
 	border-radius: 0;
 	font-style: italic;
+	text-align: center;
 }
 .footer-links {
 	margin-top: 2em;
@@ -167,11 +149,18 @@ a.nav-link {
 .footer button {
 	background: #999;
 	border-radius: 0;
+	text-transform: uppercase;
+	color: fff;
 }
 .footer-links a {
 	font-size: 12px;
 	font-weight: 300;
-	color: #999;
+	margin: .5em 0;
+	padding: .5em 0;
+	
+}
+button.btn.col-md-4.col-12 {
+	color: #fff;
 }
 /* iphone 5 / se */
 @media only screen and (max-width: 321px) {
@@ -276,7 +265,4 @@ a.nav-link {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
-
-}
  

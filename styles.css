@@ -1,5 +1,5 @@
-/*
-Pine Jewelry March 15, 2017 at 6:17:01 AM
+
+/*Pine Jewelry March 15, 2017 at 6:17:01 AM
 Site colors
 Gold: #bca64d Navy: #103341
 Mobile View
@@ -9,7 +9,7 @@ h1 - 30px Montserrat light #fff
 p - 14px Montserrat Semibod #fff
 Play video - 18 px Montserrat Regular #fff Shop on Etsy - 18 px Montserrat Semi bold #fff
 Main Panels
-H2 - 20px Montserrat Regular #000 p - 12px Montserrat Light #666 font-awesome icons: #b0b0b0
+H2 - 20px Montserrat Regular #000 p - 12px Montserrat Light #666 font-awesome icons: #b0b0b0 
 Inverted Panel
 h2 - 20px Montserrat Regular #fff
 h3 - 14px Montserrat Regular #d9d9d9 p - 11px Montserrat Light #999 italic
@@ -18,50 +18,265 @@ h2 - 22px Montserrat Light #999
 h4 - 22px Montserrat Regular #666 Button - 18px Montserrat Semibold #fff Small text - 11px Montserrat Light #999
 Footer
 email input - 14px Montserrat Light #999 Italic email submit - 14px Montserrat Semi Bold #fff copy/links - 12px Montserrat Light #999
- 
-  */
- * {
- 	font-family: 'Montserrat', sans-serif;
- }
+*/
+/* general styles */
+* {
+	font-family: 'Montserrat', sans-serif;
+}
 
- img {
- 	max-width: 100%;
- }
- h1 {
- 	font-size: 30px;
- 	font-weight: 300;
- 	/*color: #fff;*/
- }
+img {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+h2 {
+	font-size: 20px;
+	
+}
 
+/* landing panel */
+.landing {
+	background: url('./images/forest-sm.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 79vh;
+}
+a.nav-link {
+	font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff !important;
+}
+
+.landing h1 {
+	font-size: 30px;
+	font-weight: 300;
+	padding: 31px 0 8px;
+	color: #fff;
+}
+.landing h2 {
+	color: #fff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.landing p {
+	font-size: 14px;
+	font-weight: 600;
+}
+.fa-play-circle {
+    font-size: 5em;
+    color: #fff;
+    padding: 12px 0 24px;
+}
 .play-video {
 	font-size: 18px;
-	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
 }
- .top-nav {
- 	text-align: right;
- }
+.shop-etsy {
+	background: #bca64d;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 3px 0;
+	text-transform: uppercase;
+	color: #fff;
+}
 
-@media only screen and (min-width: 674px){
+/* unique */
+.unique {
+	text-align: center;
+}
+.icon {
+	font-size: 1.5em;
+	color: #b0b0b0;
+}
+.hat-sm {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+/* hand-crafting */
+.hand-crafting {
+	margin: 2em 0;
+	text-align: center;
+}
+
+/* inverted panel */
+.inverted-panel {
+	background:  #103341;
+}
+.inverted-panel h2 {
+	padding-top: 4em;
+	color: #fff;
+}
+.inverted-panel h3 {
+	font-size: 14px;
+	color: #d9d9d9;
+
+}
+.inverted-panel p {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: 300;
+	color: #999;
+}
+.item {
+	padding-top: 3em;
+}
+
+/* coupon */
+.coupon {
+	font-size: 22px;
+	text-align: center;
+}
+.coupon h4 {
+	/*font-size: 22px;*/
+	font-weight: 300;
+	color: #999;
+}
+.coupon h2 {
+	color: #666;
+}
+.coupon button {
+	background: #bca64d;
+	font-size: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	width: 100%;
+}
+.coupon p {
+	font-size: 11px;
+	font-weight: 300;
+	color: #999;
+}
+.footer {
+	margin-top: 1.5em;
+}
+.form-control {
+	border: 3px solid #d9d9d9;
+	border-radius: 0;
+	font-style: italic;
+}
+.footer-links {
+	margin-top: 2em;
+}
+.footer button {
+	background: #999;
+	border-radius: 0;
+}
+.footer-links a {
+	font-size: 12px;
+	font-weight: 300;
+	color: #999;
+}
+/* iphone 5 / se */
+@media only screen and (max-width: 321px) {
+	.fa-play-circle {
+		font-size: 3em;
+	}
+}
+
+/* small */
+@media only screen and (min-width: 576px) {
+	h2 {
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
+	.unique .unique-text  {
+		text-align: left;
+		margin-top: 4em;
+	}
+	.icon {
+		font-size: 2em;
+	}
+	.form-control {
+		border-radius: 0;
+	}
+}
+
+@media only screen and (min-width: 668px) {
 	.beads {
-		background-image: url('./images/beads-lg.jpg');
+		background: url('./images/beads-lg.jpg') no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		height: 449px;
-	}
-	.beads img {
-		display: none;
-	}
-
+	}	
 	.coupon {
-		background-image: url('./images/pine-cone-lg.jpg');
-		height: 550px;
-		flex-wrap: row;
-		align-content: stretch;
-		justify-content: center;
-		align-content: stretch;
-		max-width: 100%;
-	}
-	.coupon img {
-		display: none;
-	}
+		background: url('./images/pine-cone-lg.jpg') no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 449px;
 
+	}
 
 }
+/* medium */
+@media only screen and (min-width: 768px) {
+ 		.unique img {
+		float: right;
+	}
+	.hand-crafting {
+		text-align: left;
+		margin: 2em 0;
+	}
+	.hand-crafting h2 {
+		margin: 3em 0 2em;
+	}
+	
+	.wrist-lg {
+		margin-top: -3.5em;
+	}
+	.coupon {
+		text-align: left;
+	}
+	.coupon h4 {
+		padding-top: 10em;
+	}
+	.coupon h2 {
+		margin-top: 0;
+	}
+	.coupon p {
+		margin-bottom: 0;
+	}
+	.coupon button {
+		border: none;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: auto;
+	}
+	.footer {
+	margin-top: 5em;
+	}
+	.footer h2 {
+		color: #999999;
+	}
+	.form-row>.col, .form-row>[class*=col-] {
+		margin: 0 auto;
+	}
+
+}
+
+/* large */
+
+@media only screen and (min-width: 992px) {
+	a.nav-link.shop-etsy-btn {
+	border: 1px solid #fff;
+	margin-right: 0;
+	padding-right: 1em;
+	padding-left: 1em;
+
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+ 
